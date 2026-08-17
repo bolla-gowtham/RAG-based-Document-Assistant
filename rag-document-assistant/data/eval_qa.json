@@ -1,0 +1,34 @@
+[
+  {
+    "question": "What is the one-time stipend for home office setup?",
+    "expected_source": "company_handbook.txt"
+  },
+  {
+    "question": "How many hours per week must remote employees complete?",
+    "expected_source": "company_handbook.txt"
+  },
+  {
+    "question": "How often must remote employees attend in-person team offsites?",
+    "expected_source": "company_handbook.txt"
+  },
+  {
+    "question": "How much storage does the Pro plan include and what does it cost?",
+    "expected_source": "product_faq.txt"
+  },
+  {
+    "question": "How long are deleted files retained in Trash on the Business plan?",
+    "expected_source": "product_faq.txt"
+  },
+  {
+    "question": "What encryption is used for files at rest?",
+    "expected_source": "product_faq.txt"
+  },
+  {
+    "question": "What is the refund policy for new subscribers?",
+    "expected_source": "product_faq.txt"
+  },
+  {
+    "question": "What is the company's policy on quantum computing research?",
+    "expected_source": null
+  }
+]

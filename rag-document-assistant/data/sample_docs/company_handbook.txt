@@ -1,0 +1,24 @@
+Company Handbook: Remote Work Policy
+
+Effective Date: January 1, 2026
+
+1. Eligibility
+All full-time employees who have completed their 90-day probationary period are eligible to work remotely. Remote work arrangements must be approved by the employee's direct manager and documented in the HR system.
+
+2. Work Hours
+Remote employees are expected to be available during core hours of 10:00 AM to 4:00 PM in their local time zone. Outside of core hours, employees may set their own schedule as long as they complete 40 hours per week and attend all scheduled meetings.
+
+3. Equipment
+The company provides a laptop, monitor, and a one-time $500 stipend for home office setup. Employees are responsible for maintaining a reliable internet connection of at least 25 Mbps.
+
+4. Communication Expectations
+Remote employees must respond to Slack messages within 2 hours during work hours and join their team's daily standup call. Cameras should be on for all client-facing meetings.
+
+5. Performance Reviews
+Remote employees are evaluated using the same criteria as in-office employees: quarterly OKRs, peer feedback, and manager assessment. There is no penalty for remote status in promotion decisions.
+
+6. Security Requirements
+All remote employees must use the company VPN when accessing internal systems and enable two-factor authentication on all company accounts. Company laptops must have full-disk encryption enabled at all times.
+
+7. Travel Policy
+Remote employees are required to attend in-person team offsites twice per year. Travel expenses for offsites are fully covered by the company, including flights, hotel, and meals up to $75/day.
