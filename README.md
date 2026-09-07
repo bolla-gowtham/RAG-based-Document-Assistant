@@ -20,18 +20,17 @@ Most "RAG projects" on GitHub are a 40-line notebook wrapping `langchain.load_qa
 
 ## Tech stack
 
-| Layer | Choice | Why |
-|---|---|---|
-| Chunking | Custom recursive character splitter | No hidden behavior; tunable overlap/boundaries |
-| Embeddings | `sentence-transformers` (all-MiniLM-L6-v2) | Free, local, no API key needed to index docs |
-| Vector store | FAISS | Fast, disk-persistable, industry standard |
-| Generation | OpenAI / Anthropic (pluggable) | Provider-agnostic interface |
-| API | FastAPI | Async, typed, auto-docs |
-| UI | Streamlit | Fast to ship, good enough for a demo |
-| Evaluation | Custom retrieval metrics + LLM-as-judge | Quantifies quality instead of "looks good to me" |
-| Packaging | Docker + docker-compose | One command to run the whole stack |
-| CI | GitHub Actions | Tests run on every push/PR |
-
+| Layer        | Choice                                     | Why                                              |
+| ------------ | ------------------------------------------ | ------------------------------------------------ |
+| Chunking     | Custom recursive character splitter        | No hidden behavior; tunable overlap/boundaries   |
+| Embeddings   | `sentence-transformers` (all-MiniLM-L6-v2) | Free, local, no API key needed to index docs     |
+| Vector store | FAISS                                      | Fast, disk-persistable, industry standard        |
+| Generation   | OpenAI / Anthropic (pluggable)             | Provider-agnostic interface                      |
+| API          | FastAPI                                    | Async, typed, auto-docs                          |
+| UI           | Streamlit                                  | Fast to ship, good enough for a demo             |
+| Evaluation   | Custom retrieval metrics + LLM-as-judge    | Quantifies quality instead of "looks good to me" |
+| Packaging    | Docker + docker-compose                    | One command to run the whole stack               |
+| CI           | GitHub Actions                             | Tests run on every push/PR                       |
 
 ## Project structure
 
@@ -55,7 +54,7 @@ rag-document-assistant/
 └── .github/workflows/ci.yml
 ```
 
-## What this demonstrates (for recruiters/interviewers)
+## What this demonstrates
 
 - Understanding of RAG internals beyond calling a library function (chunking strategy, embedding trade-offs, retrieval ranking, prompt grounding, hallucination mitigation).
 - Software engineering fundamentals: clean module boundaries, dependency injection for swappable providers, typed interfaces, unit + integration tests.
