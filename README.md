@@ -16,9 +16,7 @@ Most "RAG projects" on GitHub are a 40-line notebook wrapping `langchain.load_qa
 
 ## Architecture
 
-```
-e:\RAG-based-Document-Assistant\architecture.jpg
-```
+![alt text](architecture-1.jpg)
 
 ## Tech stack
 
